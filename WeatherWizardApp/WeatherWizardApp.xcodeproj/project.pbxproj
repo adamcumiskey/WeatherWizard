@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17B24E8126367C8E00177510 /* WeatherWizard in Frameworks */ = {isa = PBXBuildFile; productRef = 17B24E8026367C8E00177510 /* WeatherWizard */; };
+		17B24E8326367C9C00177510 /* WeatherWizard in Frameworks */ = {isa = PBXBuildFile; productRef = 17B24E8226367C9C00177510 /* WeatherWizard */; };
+		17D4E1F12634A89700F3689D /* WeatherWizardiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D4E1F02634A89700F3689D /* WeatherWizardiOSApp.swift */; };
+		17D4E1F52634A89900F3689D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17D4E1F42634A89900F3689D /* Assets.xcassets */; };
+		17D4E1F82634A89900F3689D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17D4E1F72634A89900F3689D /* Preview Assets.xcassets */; };
+		17D4E21126350A8D00F3689D /* WeatherWizardMacOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D4E21026350A8D00F3689D /* WeatherWizardMacOSApp.swift */; };
+		17D4E21526350A8F00F3689D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17D4E21426350A8F00F3689D /* Assets.xcassets */; };
+		17D4E21826350A8F00F3689D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17D4E21726350A8F00F3689D /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		17495E1A2648515D00079FBC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17495E4D264851D000079FBC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		17495E0A2648515B00079FBC /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		17495E0C2648515B00079FBC /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		17D4E1EE2634A89600F3689D /* WeatherWizardiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherWizardiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17D4E1F02634A89700F3689D /* WeatherWizardiOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherWizardiOSApp.swift; sourceTree = "<group>"; };
+		17D4E1F42634A89900F3689D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17D4E1F72634A89900F3689D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		17D4E1F92634A89900F3689D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17D4E20E26350A8D00F3689D /* WeatherWizard 🧙‍♂️.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WeatherWizard 🧙‍♂️.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17D4E21026350A8D00F3689D /* WeatherWizardMacOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherWizardMacOSApp.swift; sourceTree = "<group>"; };
+		17D4E21426350A8F00F3689D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17D4E21726350A8F00F3689D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		17D4E21926350A8F00F3689D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17D4E21A26350A8F00F3689D /* WeatherWizardMacOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WeatherWizardMacOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17D4E1EB2634A89600F3689D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B24E8126367C8E00177510 /* WeatherWizard in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17D4E20B26350A8D00F3689D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B24E8326367C9C00177510 /* WeatherWizard in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17D4E1BC263467E800F3689D = {
+			isa = PBXGroup;
+			children = (
+				17D4E1EF2634A89700F3689D /* WeatherWizardiOS */,
+				17D4E20F26350A8D00F3689D /* WeatherWizardMacOS */,
+				17D4E1C6263467E800F3689D /* Products */,
+				17D4E1E22634A5FB00F3689D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		17D4E1C6263467E800F3689D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17D4E1EE2634A89600F3689D /* WeatherWizardiOS.app */,
+				17D4E20E26350A8D00F3689D /* WeatherWizard 🧙‍♂️.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17D4E1E22634A5FB00F3689D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17495E0A2648515B00079FBC /* WidgetKit.framework */,
+				17495E0C2648515B00079FBC /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17D4E1EF2634A89700F3689D /* WeatherWizardiOS */ = {
+			isa = PBXGroup;
+			children = (
+				17D4E1F02634A89700F3689D /* WeatherWizardiOSApp.swift */,
+				17D4E1F42634A89900F3689D /* Assets.xcassets */,
+				17D4E1F92634A89900F3689D /* Info.plist */,
+				17D4E1F62634A89900F3689D /* Preview Content */,
+			);
+			path = WeatherWizardiOS;
+			sourceTree = "<group>";
+		};
+		17D4E1F62634A89900F3689D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				17D4E1F72634A89900F3689D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		17D4E20F26350A8D00F3689D /* WeatherWizardMacOS */ = {
+			isa = PBXGroup;
+			children = (
+				17D4E21026350A8D00F3689D /* WeatherWizardMacOSApp.swift */,
+				17D4E21426350A8F00F3689D /* Assets.xcassets */,
+				17D4E21926350A8F00F3689D /* Info.plist */,
+				17D4E21A26350A8F00F3689D /* WeatherWizardMacOS.entitlements */,
+				17D4E21626350A8F00F3689D /* Preview Content */,
+			);
+			path = WeatherWizardMacOS;
+			sourceTree = "<group>";
+		};
+		17D4E21626350A8F00F3689D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				17D4E21726350A8F00F3689D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17D4E1ED2634A89600F3689D /* WeatherWizardiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17D4E1FA2634A89900F3689D /* Build configuration list for PBXNativeTarget "WeatherWizardiOS" */;
+			buildPhases = (
+				17D4E1EA2634A89600F3689D /* Sources */,
+				17D4E1EB2634A89600F3689D /* Frameworks */,
+				17D4E1EC2634A89600F3689D /* Resources */,
+				17495E1A2648515D00079FBC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeatherWizardiOS;
+			packageProductDependencies = (
+				17B24E8026367C8E00177510 /* WeatherWizard */,
+			);
+			productName = WeatherWizardiOS;
+			productReference = 17D4E1EE2634A89600F3689D /* WeatherWizardiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17D4E20D26350A8D00F3689D /* WeatherWizardMacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17D4E21B26350A8F00F3689D /* Build configuration list for PBXNativeTarget "WeatherWizardMacOS" */;
+			buildPhases = (
+				17D4E20A26350A8D00F3689D /* Sources */,
+				17D4E20B26350A8D00F3689D /* Frameworks */,
+				17D4E20C26350A8D00F3689D /* Resources */,
+				17495E4D264851D000079FBC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeatherWizardMacOS;
+			packageProductDependencies = (
+				17B24E8226367C9C00177510 /* WeatherWizard */,
+			);
+			productName = WeatherWizardMacOS;
+			productReference = 17D4E20E26350A8D00F3689D /* WeatherWizard 🧙‍♂️.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17D4E1BD263467E800F3689D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					17D4E1ED2634A89600F3689D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					17D4E20D26350A8D00F3689D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 17D4E1C0263467E800F3689D /* Build configuration list for PBXProject "WeatherWizardApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17D4E1BC263467E800F3689D;
+			productRefGroup = 17D4E1C6263467E800F3689D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17D4E1ED2634A89600F3689D /* WeatherWizardiOS */,
+				17D4E20D26350A8D00F3689D /* WeatherWizardMacOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17D4E1EC2634A89600F3689D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D4E1F82634A89900F3689D /* Preview Assets.xcassets in Resources */,
+				17D4E1F52634A89900F3689D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17D4E20C26350A8D00F3689D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D4E21826350A8F00F3689D /* Preview Assets.xcassets in Resources */,
+				17D4E21526350A8F00F3689D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17D4E1EA2634A89600F3689D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D4E1F12634A89700F3689D /* WeatherWizardiOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17D4E20A26350A8D00F3689D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D4E21126350A8D00F3689D /* WeatherWizardMacOSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		17D4E1D3263467EA00F3689D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		17D4E1D4263467EA00F3689D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		17D4E1FB2634A89900F3689D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WeatherWizardiOS/Preview Content\"";
+				DEVELOPMENT_TEAM = X8C69U22LW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WeatherWizardiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adam.WeatherWizardiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17D4E1FC2634A89900F3689D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WeatherWizardiOS/Preview Content\"";
+				DEVELOPMENT_TEAM = X8C69U22LW;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WeatherWizardiOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.adam.WeatherWizardiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17D4E21C26350A8F00F3689D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WeatherWizardMacOS/WeatherWizardMacOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"WeatherWizardMacOS/Preview Content\"";
+				DEVELOPMENT_TEAM = X8C69U22LW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WeatherWizardMacOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adam.WeatherWizardMacOS;
+				PRODUCT_NAME = "WeatherWizard 🧙‍♂️";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		17D4E21D26350A8F00F3689D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WeatherWizardMacOS/WeatherWizardMacOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"WeatherWizardMacOS/Preview Content\"";
+				DEVELOPMENT_TEAM = X8C69U22LW;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WeatherWizardMacOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adam.WeatherWizardMacOS;
+				PRODUCT_NAME = "WeatherWizard 🧙‍♂️";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17D4E1C0263467E800F3689D /* Build configuration list for PBXProject "WeatherWizardApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17D4E1D3263467EA00F3689D /* Debug */,
+				17D4E1D4263467EA00F3689D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17D4E1FA2634A89900F3689D /* Build configuration list for PBXNativeTarget "WeatherWizardiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17D4E1FB2634A89900F3689D /* Debug */,
+				17D4E1FC2634A89900F3689D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17D4E21B26350A8F00F3689D /* Build configuration list for PBXNativeTarget "WeatherWizardMacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17D4E21C26350A8F00F3689D /* Debug */,
+				17D4E21D26350A8F00F3689D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		17B24E8026367C8E00177510 /* WeatherWizard */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WeatherWizard;
+		};
+		17B24E8226367C9C00177510 /* WeatherWizard */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = WeatherWizard;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 17D4E1BD263467E800F3689D /* Project object */;
+}
